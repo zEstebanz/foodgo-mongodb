@@ -52,6 +52,11 @@
   border-radius: 20px;
 }
 
+.backgroundProduct {
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 20px;
+}
+
 .boxGameCustom {
   background-color: #242424;
   box-shadow: 10px 10px #00FF7F;
@@ -79,6 +84,10 @@
 .titleCover .span {
   color: #cd3232;
 }
+.precioCustom{
+  color: #cd3232;
+  
+}
 .titleProduct{
   font-size: 20px;
 }
@@ -94,6 +103,7 @@
 
 .buttonCustom {
   background-color: var(--color-primario);
+  border-radius: 10px;
 }
 
 .buttonCustom:hover {
@@ -102,6 +112,8 @@
 
 .buttonCustom2 {
   background-color: var(--color-terciario);
+  border-radius: 10px;
+
 }
 
 .buttonCustom2:hover {

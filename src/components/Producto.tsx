@@ -29,17 +29,17 @@ async function Producto() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6">
                 {producto.map((producto, index) => (
                     <div key={index} className="h-100 backgroundCover text-white p-4 rounded-lg shadow-lg">
-                        <h1 className="titleProduct text-center font-bold mb-4">{producto.title}</h1>
+                        <h1 className="titleProduct text-center font-bold">{producto.title}</h1>
                         <a href={`/tienda/product?title=${encodeURIComponent(producto.title)}&precio=${encodeURIComponent(producto.precio)}&descripcion=${encodeURIComponent(producto.descripcion)}&imagen=${encodeURIComponent(producto.imagen)}`}
                        
                        >
                             <img
                                 src={producto.imagen}
-                                className="block w-full h-60 object rounded-lg object-cover"
+                                className="w-full h-60 object rounded-lg object-cover"
                             />
                         </a>
                         <div className="card-body mt-3">
-                            <h3 className="text-2xl font-bold">${producto.precio}</h3>
+                            <h3 className="text-3xl font-bold text-center">${producto.precio}</h3>
                             <a
                                 href={`/tienda/product?title=${encodeURIComponent(producto.title)}&precio=${encodeURIComponent(producto.precio)}&descripcion=${encodeURIComponent(producto.descripcion)}&imagen=${encodeURIComponent(producto.imagen)}`}
                                 className="buttonCustom block py-2 mt-5 pl-3 pr-4 text-white text-center rounded"
