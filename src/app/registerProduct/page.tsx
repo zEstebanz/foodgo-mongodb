@@ -52,6 +52,7 @@ function Productos() {
           <input
             type="text"
             id="imgUrl"
+            placeholder="Agregar una URL de una imagen."
             className="text-white bg-zinc-800 px-2 py-1 block w-full mb-2"
             name="imgUrl"
             required
