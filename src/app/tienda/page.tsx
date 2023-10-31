@@ -3,11 +3,11 @@ import Producto from "@/components/Producto";
 
 async function DashboarTurnos() {
 
-  
+
     return (
         <section className="p-8">
-            <h1 className="text-white text-center text-6xl mb-8 font-bold">Tienda</h1>
-           
+            <h1 className="backgroundCover textCenter font-mont mb-5 font-bold">Food<span className="span">Go</span></h1>
+
             <Producto></Producto>
         </section>
     );

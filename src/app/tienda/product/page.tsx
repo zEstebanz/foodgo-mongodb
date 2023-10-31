@@ -33,12 +33,13 @@ function Product() {
 
     return (
         <section className='h-screen'>
+
             <div className="backgroundCover container mx-auto p-4">
                 <div className="flex flex-col md:flex-row">
                     {/* Lado izquierdo: Imagen */}
 
-                    <div className="md:w-1/2">
-                        <img src={imagen} className="w-full h-auto" />
+                    <div className="md:w-1/3 md:p-2">
+                        <img src={imagen} className="object-cover" />
                     </div>
 
                     {/* Lado derecho: Datos */}
@@ -53,6 +54,7 @@ function Product() {
                     </div>
                 </div>
             </div>
+
         </section>
     );
 }

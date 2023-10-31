@@ -7,22 +7,22 @@ const UserSchema = new Schema(
     email: {
       type: String,
       unique: true,
-      required: [true, "Email is required"],
+      required: [true, "El Email es requerido"],
       match: [
         /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-        "Email is invalid",
+        "El Email es invalido",
       ],
     },
     password: {
       type: String,
-      required: [true, "Password is required"],
+      required: [true, "El Password es requerido"],
       select: false,
     },
     fullname: {
       type: String,
-      required: [true, "fullname is required"],
-      minLength: [3, "fullname must be at least 3 characters"],
-      maxLength: [20, "fullname must be at most 20 characters"],
+      required: [true, "El nombre completo es requerido"],
+      minLength: [3, "El nombre completo debe tener al menos 3 caracteres"],
+      maxLength: [20, "El nombre completo debe tener como máximo 20 caracteres."],
     },
   },
   {

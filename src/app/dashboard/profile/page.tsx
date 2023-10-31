@@ -7,7 +7,7 @@ function DashboardPage() {
 
     return (
         <section className="h-screen">
-            <h1 className="text-white text-center text-6xl mb-8 font-bold pt-10">PERFIL</h1>
+            <h1 className="text-white text-center text-6xl mb-8 font-bold pt-10">Perfil</h1>
 
             <div className="text-white flex flex-col items-center lg:h-[calc(100vh-4rem)] gap-y-5 p-4">
 
