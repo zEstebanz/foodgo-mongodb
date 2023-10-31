@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primario: #e93f33;
+  --color-secundario: #4c695e;
+  --color-terciario: #6e9887;
+  --color-fondo: #102542;
+  --color-destacado: #ac433b;
+}
+
+
+/* Para dispositivos móviles o pantallas de tamaño pequeño */
+@media (max-width: 768px) {
+  .indexCoverBack {
+    background-image: url("https://images.unsplash.com/photo-1428660386617-8d277e7deaf2?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-attachment: scroll;
+    height: auto;
+
+    /* Ajusta el tamaño de fondo para que quepa completamente en el contenedor */
+    background-size: cover;
+    /* Alinea el fondo al centro del contenedor */
+    background-position: center;
+    padding-bottom: 100px;
+  }
+
+}
+
+/* Para pantallas más grandes o escritorio */
+@media (min-width: 769px) {
+  .indexCoverBack {
+    background-image: url("https://images.unsplash.com/photo-1428660386617-8d277e7deaf2?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: auto;
+    padding-bottom: 100px;
+    background-size: auto;
+    background-attachment: fixed;
+  }
+}
+
+.textCenter {
+  text-align: center;
+  font-size: 80px;
+  color: var(--color-terciario);
+}
+.span{
+  color: var(--color-primario);
+}
+
+.backgroundCover {
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.boxGameCustom {
+  background-color: #242424;
+  box-shadow: 10px 10px #00FF7F;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 20px;
+}
+
+/* Textos, Titulos, P.*/
+.titleCover {
+  text-align: center;
+  font-size: 60px;
+  color: #cd3232;
+  background-color: rgba(0, 0, 0, 0.534);
+  height: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  line-height: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.titleCover .span {
+  color: #cd3232;
+}
+
+/* Section Contact*/
+.sectionContact {
+  background-color: #242424;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+}
+
+/* Botones Custom */
+
+.buttonCustom {
+  background-color: var(--color-primario);
+}
+
+.buttonCustom:hover {
+  background-color: var(--color-destacado);
+}
+
+.buttonCustom2 {
+  background-color: var(--color-terciario);
+}
+
+.buttonCustom2:hover {
+  background-color: var(--color-secundario);
+}
+
+
+.textFooter{
+  color: var(--color-primario);
+  font-size: 20px;
+}
+.textCustom{
+  color: #00FF7F;
+  font-family: sans-serif;
+}
+/* End Botones Custom */
