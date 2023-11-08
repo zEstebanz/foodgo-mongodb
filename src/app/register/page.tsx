@@ -24,7 +24,7 @@ function Signup() {
                 redirect: false,
             });
 
-            if (res?.ok) return router.push("/");
+            if (res?.ok) return router.push("/tienda");
         } catch (error) {
             console.log(error);
             if (error instanceof AxiosError) {

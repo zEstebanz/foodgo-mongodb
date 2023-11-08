@@ -27,12 +27,9 @@ const Footer = () => {
           </ul>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-white textFooter">2023 <Link href="/" className="hover:underline textFooter" target='_blank'>FoodGo.</Link> Programación</span>
+        <span className="block text-sm text-gray-500 sm:text-center dark:text-white textFooter">2023 <Link href="https://docs.google.com/document/d/1XpOgEdDDbbbn2nr9s6MwrKSjviO_IaZ1clLgH-e7Z-k/edit?usp=sharing" className="hover:underline textFooter" target='_blank'>Documentación</Link> PP2.</span>
       </div>
     </footer>
-
-
-
   );
 };
 

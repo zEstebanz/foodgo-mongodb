@@ -40,7 +40,7 @@ const Nav = () => {
                                     <Link href="/tienda" className="block py-2 pl-3 pr-4 text-white rounded" aria-current="page">Tienda</Link>
                                 </li>
                                 <li>
-                                    <Link href="/registerProduct" className="buttonCustom2 block py-2 pl-3 pr-4 text-white rounded" aria-current="page">Registrar Producto</Link>
+                                    <Link href="/registerProduct" className="buttonCustom2 block py-2 pl-3 pr-4 text-white rounded" aria-current="page">Crear Producto</Link>
                                 </li>
                                 <li>
                                     <Link href="/dashboard/profile" className="buttonCustom block py-2 pl-3 pr-4 text-white rounded" aria-current="page">Perfil</Link>
